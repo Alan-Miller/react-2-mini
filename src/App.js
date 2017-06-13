@@ -8,20 +8,15 @@ import FamilyChanger from './components/FamilyChanger';
 import TextContainer from './components/TextContainer';
 
 class App extends Component {
-  constructor() {
-    super();
+  // constructor
 
-    this.state = {
-      fontColor: 'black'
-      ,fontSize: 12
-      ,fontFamily: 'monospace'
-      ,allowEdit: 'true'
-    }
+  // updateColor
 
-  updateColor(val) {this.setState({ fontColor: val })};
-  updateSize(val) {this.setState({ fontSize: val })};
-  updateFamily(val) {this.setState({ fontFamily: val })};
-  updateEditStatus(val) {this.setState({ allowEdit: val })};
+  // updateSize
+
+  // updateFamily
+
+  // updateEditStatus
 
   render() {
     return (
